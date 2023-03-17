@@ -108,11 +108,17 @@ function inputsSegunFormulario(arrInput, arrForm, type, elementID) {
 
 ////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-//Instancio un video
+//Instancio un video  (con hover)
+/*
 let url = "https://mdbcdn.b-cdn.net/img/video/forest.mp4";
-const myVideo = new Video("app", url, "hover-to-play", 320, 240);
+const myVideo = new Video("app", url, "hover-to-play ratio ratio-4x3", 400, 400);
 myVideo.render();
+*/
 
+//Instancio un video  (sin hover)
+let url2 = "https://mdbootstrap.com/img/video/animation-intro.mp4";
+const myVideo2 = new Video("app", url2, "object-fit-cover", 300, 300);
+myVideo2.render();
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 
